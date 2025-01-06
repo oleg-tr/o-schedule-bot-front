@@ -8,7 +8,8 @@ const Header = () => {
 
     return (
         <div className={'header'}>
-            <Button onClick={onClose}>Закрыть</Button>
+            <Button onClick={onClose}>Открыть</Button>
+            <a href="https://www.youtube.com/"> youtube</a>
             <span className={'username'}>
                 {user?.username}
             </span>
