@@ -12,7 +12,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "npm i && npm run print-env && react-scripts build",
+    "build": "npm run print-env && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "print-env": "node -e \"require('dotenv').config(); console.log(process.env.NPM_TOKEN);\""
